@@ -14,6 +14,12 @@ body{
     padding-top: 0;
 }
 
+#third-bg{
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 #div1{
     padding-top: 13%;
     padding-left: 3%;
@@ -27,6 +33,22 @@ body{
     box-shadow: 10px 10px 20px gray;
 }
 
+#div-recipies{
+    margin-top: 10%;
+    margin-left: 26%;
+    width: 50%;
+    text-align: center;
+}
+
+
+.justice{
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
 
 #top-bg h1{
     color: rgb(68, 67, 67);
@@ -38,6 +60,14 @@ body{
 
 h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    color: black;
 }
 
 .fa {
@@ -68,14 +98,42 @@ h1{
 
 
 .flex-container{
+    margin-top: 10%;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+}
+
+.flex-container2{
+    margin-top: 4%;
+    display: flex;
+    margin-left: 13%;
 }
 
 .half-width{
     width: 40%;
+    margin-left: 5%;
     padding-left: 5%;
+    padding-right: 5%;
+}
+
+.thrice-width{
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1.5% 1.5%;
+    box-shadow: 10px 10px 20px grey;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.thrice-width img{
+    width: 250px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.left{
+    text-align: left;
+    padding-left: 6%;
 }
 
 
@@ -87,4 +145,19 @@ h1{
     border-radius: 30px;
     margin-top: 10px;
     box-shadow: 10px 10px 40px gray;
+}
+
+.link-button2{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right,purple,tomato);
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+#third-bg img{
+    width: 90%;
 }
