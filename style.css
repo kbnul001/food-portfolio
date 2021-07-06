@@ -1,14 +1,16 @@
 
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(70, 68, 68);
 }
 
 #top-bg{
     margin: 0;
-    background-image: url(images/foodtop1.png);
+    background-image: url(images/top1.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 1500px;
+    height: 780px;
     padding-top: 0;
 }
 
@@ -63,3 +65,26 @@ h1{
     color: white;
   }
   
+
+
+.flex-container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+
+
+.link-button{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, rgb(1, 88, 1),rgb(66, 197, 66));
+    color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
